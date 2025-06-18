@@ -11,5 +11,4 @@ public record AluguelRequestDTO(
         Long veiculoId,
         LocalDate dataInicio,
         LocalDate dataFim) {
-
 }

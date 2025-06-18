@@ -4,7 +4,7 @@ import com.fiap.locatech.dtos.AluguelRequestDTO;
 import com.fiap.locatech.entities.Aluguel;
 
 
-import com.fiap.locatech.repositories.VeiculoRepository;
+
 import com.fiap.locatech.services.AluguelService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -14,9 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
